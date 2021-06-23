@@ -22,4 +22,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: echo "${STEPENV}"
+            
             # This will NOT echo the value/string of STEPENV
