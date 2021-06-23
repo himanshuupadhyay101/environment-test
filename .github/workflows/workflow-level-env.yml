@@ -10,7 +10,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: step-1
+            
               run: echo "${PUBLICENV}"
+              
               # This will echo the value/string of PUBLICENV
 
             - name: step-2
